@@ -1,0 +1,41 @@
+.input {
+    max-width: 100px;
+}
+
+.custom-row {
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: -120px;
+}
+
+.side-b {
+    margin-right: 15px;
+}
+
+.side-c {
+    display: inline-block;
+    margin-left: -120px;
+    width:50px;
+}
+
+.custom-button {
+    width: 500px;
+    height: 35px;
+    border: none;
+    color: white;
+}
+
+.color-red {
+    background-color: rgb(190,0,0);
+    
+}
+
+.color-blue {
+    background-color: steelblue;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    height: 35px;
+}

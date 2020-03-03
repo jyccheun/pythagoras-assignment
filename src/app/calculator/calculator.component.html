@@ -1,0 +1,21 @@
+<section class="mt-5">
+    <div class="custom-row">
+        <input type="text" class="side-b input" [(ngModel)]="sideB">
+        <img height="300" weight="300" src="../assets/pythagorean.png" alt="pythagorean theorem">
+        <span class="side-c">
+            <app-result [sideC]="sideC" *ngIf="showC"></app-result>
+        </span>
+    </div>
+    <div>
+        <input type="text" id="sideA" name="sideA" class="input mt-3" [(ngModel)]="sideA">
+    </div>
+    <div>
+        <p class="error-message mt-2">{{ error }}</p>
+    </div>
+    <div class="mt-2">
+        <button (click)="calculate()" class="custom-button color-blue">Calculate</button>
+    </div>
+    <div class="mt-2">
+        <button (click)="reset()" class="custom-button color-red">Reset</button>
+    </div>
+</section>
